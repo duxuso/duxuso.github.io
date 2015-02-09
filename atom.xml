@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-02-09T21:18:05+11:00</updated>
+  <updated>2015-02-09T22:11:38+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://duxuso.github.io/blog/2015/02/09/first-post/"/>
+    <updated>2015-02-09T21:23:48+11:00</updated>
+    <id>http://duxuso.github.io/blog/2015/02/09/first-post</id>
+    <content type="html"><![CDATA[<p>This is my first octopress based blog post.</p>
+
+<h1>Use Mou editor</h1>
+
+
+<table>
+<th>Title</th><th>Content</th><th>Tool</th>
+<tbody>
+<tr>
+<td>USE</td><td>Mou</td><td>editor</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+<p bgcolor="blue">This is a test. <br>
+I need to learn Markdown language.</p>
+
+
+<p><caption>When I finish writing this blog, use this command: <br/> <code>rake gen_deploy</code> <br/>
+to post your article.</caption></p>
+]]></content>
+  </entry>
   
 </feed>
