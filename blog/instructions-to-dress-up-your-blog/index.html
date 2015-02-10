@@ -9,7 +9,7 @@
   <meta name="author" content="Duxuso">
 
   
-  <meta name="description" content="I learn these instructions from &ldquo;Hailong Hao&rsquo;s Laboratory&rdquo; When you set down your home blog, you start to think about adding some &hellip;">
+  <meta name="description" content="I learn these instructions from “Hailong Hao’s Laboratory” When you set down your home blog, you start to think about adding some furnitures, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -84,14 +84,13 @@
   </header>
 
 
-<div class="entry-content"><p>I learn these instructions from <a href="http://shengmingzhiqing.com/blog/octopress-lean-modification-1.html/" title="生命之氢">&ldquo;Hailong Hao&rsquo;s Laboratory&rdquo;</a></p>
+<div class="entry-content"><p>I learn these instructions from <a href="http://shengmingzhiqing.com/blog/octopress-lean-modification-1.html/" title="生命之氢">“Hailong Hao’s Laboratory”</a></p>
 
 <p>When you set down your home blog, you start to think about adding some furnitures, painting walls, decoration  , and so on.</p>
 
 <ul>
-<li>Use some <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">third party themes</a> to replace the default Classic. Such as the theme <code>cleanpress</code></li>
+  <li>Use some <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">third party themes</a> to replace the default Classic. Such as the theme <code>cleanpress</code></li>
 </ul>
-
 
 <pre>
 cd octopress
@@ -100,17 +99,13 @@ rake install['cleanpress']
 rake generate
 </pre>
 
-
 <ul>
-<li>Configure your basic settings in <code>_config.yml</code> file,
-
-<ul>
-<li>Domain name, Blog Title, Author</li>
+  <li>Configure your basic settings in <code>_config.yml</code> file, 
+    <ul>
+      <li>Domain name, Blog Title, Author</li>
+    </ul>
+  </li>
 </ul>
-</li>
-</ul>
-
-
 <pre>
 url: http://yoursite.com  #这里改为你网站的域名
 title: My Octopress Blog #这里改为你想要的网站的标题
@@ -119,15 +114,12 @@ author: Your Name #这里改为博客作者的名字，也就是你的名字
 simple_search: https://www.google.com/search #这里是默认搜索引擎，可以先顾不管
 description: #网站描述信息
 </pre>
-
-
 <ul>
-<li>Time &amp; Date format</li>
+  <li>Time &amp; Date format</li>
 </ul>
 
-
 <p>Because this is a English default blog, if you want to use Chinese Time/Date format in your blog.
-you can edit this part</p>
+you can edit this part </p>
 
 <pre><code>date_format: "ordinal" #默认日期显示方式
 </code></pre>
@@ -152,21 +144,16 @@ http://[your_domain_name]/blog/Post-Title.html/ # 这条链接清晰明了
 
 <pre>permalink: /blog/:year/:month/:day/:title/ # 文章固定链接</pre>
 
-
 <p>you can change it into the following format</p>
 
-<pre><code>permalink: /blog/:year:month:day/:title.html/ 
-</code></pre>
+<pre><code>permalink: /blog/:year:month:day/:title.html/  or
 
-<p>or</p>
-
-<pre><code>permalink: /blog/:title.html/ # this is the simplest style
+permalink: /blog/:title.html/ # this is the simplest style
 </code></pre>
 
 <ul>
-<li>Change <code>&ldquo;Categories&rdquo;</code> to <code>&ldquo;分类&rdquo;</code> ＃修改分类前缀</li>
+  <li>Change <code>"Categories"</code> to <code>"分类"</code> ＃修改分类前缀</li>
 </ul>
-
 
 <p>Just add the following line into <code>_config.yml</code></p>
 
@@ -174,23 +161,23 @@ http://[your_domain_name]/blog/Post-Title.html/ # 这条链接清晰明了
 </code></pre>
 
 <p>you can add this line in any position of <code>_config.yml</code> file.
-or after</p>
+or after </p>
 
 <pre><code>category_dir: blog/categories
 </code></pre>
 
 <ul>
-<li>[Continue] Button</li>
+  <li>[Continue] Button</li>
 </ul>
 
+<p>excerpt_link: “Read on &amp;raar;” # “Continue reading” link text at the bottom of excerpted articles</p>
 
-<p>excerpt_link: &ldquo;Read on &raar;&rdquo; # &ldquo;Continue reading&rdquo; link text at the bottom of excerpted articles</p>
-
-<p>Change <code>&ldquo;Read on&rdquo;</code> to <code>&ldquo;继续阅读&rdquo;</code></p>
+<p>Change <code>"Read on"</code> to <code>"继续阅读"</code> </p>
 
 <pre><code>rake generate
 rake deploy
 </code></pre>
+
 </div>
 
 
