@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-02-09T22:11:38+11:00</updated>
+  <updated>2015-02-10T17:51:27+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Instructions to Post on Ocotpress]]></title>
+    <link href="http://duxuso.github.io/blog/2015/02/10/instructions-to-post-on-ocotpress/"/>
+    <updated>2015-02-10T17:33:26+11:00</updated>
+    <id>http://duxuso.github.io/blog/2015/02/10/instructions-to-post-on-ocotpress</id>
+    <content type="html"><![CDATA[<h2>Instructions to post on Octopress</h2>
+
+<p>When you have installed and built your octopress blog environment, you can start to post somehting on your blog.</p>
+
+<p>Enter octopress</p>
+
+<pre><code>cd octopress
+</code></pre>
+
+<p>Create a new entry</p>
+
+<pre><code>rake new_post["Post Title"]
+</code></pre>
+
+<p>Please replace <code>Post Title</code> with your own title, this will create a markdown file named <code>yyyy-mm-dd-Post-Title.markdown</code>, next you can edit your blog content in this file.</p>
+
+<p>Then go to <code>_posts</code> directory to edit your new file</p>
+
+<pre><code>cd source/_posts/
+vim yyyy-mm-dd-Post-Title.markdown
+</code></pre>
+
+<p>When you finish editing your markdown file, use the following comment to post on your octopress blog</p>
+
+<pre><code>rake gen_deploy
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Post]]></title>
