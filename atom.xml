@@ -4,7 +4,7 @@
   <title><![CDATA[Duxuso Octopress]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-02-10T19:49:33+11:00</updated>
+  <updated>2015-02-10T19:58:05+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Duxuso]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Instructions to Dress Up Your Blog]]></title>
-    <link href="http://duxuso.github.io/blog/instructions-to-dress-up-your-blog.html/"/>
+    <link href="http://duxuso.github.io/blog/instructions-to-dress-up-your-blog/"/>
     <updated>2015-02-10T18:02:10+11:00</updated>
     <id>http://duxuso.github.io/blog/instructions-to-dress-up-your-blog</id>
     <content type="html"><![CDATA[<p>I learn these instructions from <a href="http://shengmingzhiqing.com/blog/octopress-lean-modification-1.html/" title="生命之氢">&ldquo;Hailong Hao&rsquo;s Laboratory&rdquo;</a></p>
@@ -130,7 +130,7 @@ rake deploy
   
   <entry>
     <title type="html"><![CDATA[Instructions to Post on Ocotpress]]></title>
-    <link href="http://duxuso.github.io/blog/instructions-to-post-on-ocotpress.html/"/>
+    <link href="http://duxuso.github.io/blog/instructions-to-post-on-ocotpress/"/>
     <updated>2015-02-10T17:33:26+11:00</updated>
     <id>http://duxuso.github.io/blog/instructions-to-post-on-ocotpress</id>
     <content type="html"><![CDATA[<h2>Instructions to post on Octopress</h2>
@@ -164,7 +164,7 @@ vim yyyy-mm-dd-Post-Title.markdown
   
   <entry>
     <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://duxuso.github.io/blog/first-post.html/"/>
+    <link href="http://duxuso.github.io/blog/first-post/"/>
     <updated>2015-02-09T21:23:48+11:00</updated>
     <id>http://duxuso.github.io/blog/first-post</id>
     <content type="html"><![CDATA[<p>This is my first octopress based blog post.</p>
