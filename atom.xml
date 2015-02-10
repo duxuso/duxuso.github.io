@@ -4,7 +4,7 @@
   <title><![CDATA[Duxuso Octopress]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-02-10T22:55:22+11:00</updated>
+  <updated>2015-02-10T23:08:48+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Duxuso]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Math Functions Test]]></title>
+    <link href="http://duxuso.github.io/blog/math-functions-test/"/>
+    <updated>2015-02-10T23:01:27+11:00</updated>
+    <id>http://duxuso.github.io/blog/math-functions-test</id>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">
+f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\left( x\right)}{\Delta x}
+</script>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instructions to Dress Up Your Blog]]></title>
