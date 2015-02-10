@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-02-10T18:55:59+11:00</updated>
+  <updated>2015-02-10T19:42:48+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -23,36 +23,48 @@
 <p>When you set down your home blog, you start to think about adding some furnitures, painting walls, decoration  , and so on.</p>
 
 <ul>
-<li><p>Use some <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">third party themes</a> to replace the default Classic. Such as the theme <code>cleanpress</code></p>
+<li>Use some <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">third party themes</a> to replace the default Classic. Such as the theme <code>cleanpress</code></li>
+</ul>
 
-<p>  cd octopress
-  git clone git://github.com/macjasp/cleanpress.git .themes/cleanpress
-  rake install[&lsquo;cleanpress&rsquo;]
-  rake generate</p></li>
-<li><p>Configure your basic settings in <code>_config.yml</code> file,</p>
+
+<pre>
+cd octopress
+git clone git://github.com/macjasp/cleanpress.git .themes/cleanpress
+rake install['cleanpress']
+rake generate
+</pre>
+
+
+<ul>
+<li>Configure your basic settings in <code>_config.yml</code> file,
 
 <ul>
 <li>Domain name, Blog Title, Author</li>
 </ul>
+</li>
+</ul>
 
 
-<p>  url: <a href="http://yoursite.com">http://yoursite.com</a>  #这里改为你网站的域名
-  title: My Octopress Blog #这里改为你想要的网站的标题
-  subtitle: A blogging framework for hackers, #这里改为你的博客副标题
-  author: Your Name #这里改为博客作者的名字，也就是你的名字
-  simple_search: <a href="https://www.google.com/search">https://www.google.com/search</a> #这里是默认搜索引擎，可以先顾不管
-  description: #网站描述信息</p>
+<pre>
+url: http://yoursite.com  #这里改为你网站的域名
+title: My Octopress Blog #这里改为你想要的网站的标题
+subtitle: A blogging framework for hackers, #这里改为你的博客副标题
+author: Your Name #这里改为博客作者的名字，也就是你的名字
+simple_search: https://www.google.com/search #这里是默认搜索引擎，可以先顾不管
+description: #网站描述信息
+</pre>
+
 
 <ul>
-<li>Time &amp; Date format
-Because this is English default blog, if you want to use Chinese Time/Date format in your blog.
-you can edit this part</li>
+<li>Time &amp; Date format</li>
 </ul>
 
 
-<p>  date_format: &ldquo;ordinal&rdquo; #默认日期显示方式</p></li>
-</ul>
+<p>Because this is a English default blog, if you want to use Chinese Time/Date format in your blog.
+you can edit this part</p>
 
+<pre><code>date_format: "ordinal" #默认日期显示方式
+</code></pre>
 
 <p>Please modify <code>ordinal</code> to <code>%Y 年%-m 月%-d</code> in <code>_config.yml</code></p>
 
@@ -83,24 +95,30 @@ http://[your_domain_name]/blog/Post-Title.html/ # 这条链接清晰明了
 <p>or</p>
 
 <pre><code>permalink: /blog/:title.html/ # this is the simplest style
-
-* Change &lt;code&gt;"Categories"&lt;/code&gt; to &lt;code&gt;"分类"&lt;/code&gt; ＃修改分类前缀
 </code></pre>
+
+<ul>
+<li>Change <code>&ldquo;Categories&rdquo;</code> to <code>&ldquo;分类&rdquo;</code> ＃修改分类前缀</li>
+</ul>
+
 
 <p>Just add the following line into <code>_config.yml</code></p>
 
 <pre><code>category_title_prefix: "分类：" ＃ 修改分类前缀
 </code></pre>
 
-<p>you can add this line in any position in the <code>_config.yml</code> file.
+<p>you can add this line in any position of <code>_config.yml</code> file.
 or after</p>
 
 <pre><code>category_dir: blog/categories
-
-* [Continue] Button
-
-&lt;i&gt;excerpt_link: "Read on &amp;raar;" # "Continue reading" link text at the bottom of excerpted articles&lt;/i&gt;
 </code></pre>
+
+<ul>
+<li>[Continue] Button</li>
+</ul>
+
+
+<p>excerpt_link: &ldquo;Read on &raar;&rdquo; # &ldquo;Continue reading&rdquo; link text at the bottom of excerpted articles</p>
 
 <p>Change <code>&ldquo;Read on&rdquo;</code> to <code>&ldquo;继续阅读&rdquo;</code></p>
 
