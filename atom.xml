@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-02-10T17:51:27+11:00</updated>
+  <updated>2015-02-10T18:55:59+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,103 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Instructions to Dress Up Your Blog]]></title>
+    <link href="http://duxuso.github.io/blog/2015/02/10/instructions-to-dress-up-your-blog/"/>
+    <updated>2015-02-10T18:02:10+11:00</updated>
+    <id>http://duxuso.github.io/blog/2015/02/10/instructions-to-dress-up-your-blog</id>
+    <content type="html"><![CDATA[<p>I learn these instructions from <a href="http://shengmingzhiqing.com/blog/octopress-lean-modification-1.html/" title="生命之氢">&ldquo;Hailong Hao&rsquo;s Laboratory&rdquo;</a></p>
+
+<p>When you set down your home blog, you start to think about adding some furnitures, painting walls, decoration  , and so on.</p>
+
+<ul>
+<li><p>Use some <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">third party themes</a> to replace the default Classic. Such as the theme <code>cleanpress</code></p>
+
+<p>  cd octopress
+  git clone git://github.com/macjasp/cleanpress.git .themes/cleanpress
+  rake install[&lsquo;cleanpress&rsquo;]
+  rake generate</p></li>
+<li><p>Configure your basic settings in <code>_config.yml</code> file,</p>
+
+<ul>
+<li>Domain name, Blog Title, Author</li>
+</ul>
+
+
+<p>  url: <a href="http://yoursite.com">http://yoursite.com</a>  #这里改为你网站的域名
+  title: My Octopress Blog #这里改为你想要的网站的标题
+  subtitle: A blogging framework for hackers, #这里改为你的博客副标题
+  author: Your Name #这里改为博客作者的名字，也就是你的名字
+  simple_search: <a href="https://www.google.com/search">https://www.google.com/search</a> #这里是默认搜索引擎，可以先顾不管
+  description: #网站描述信息</p>
+
+<ul>
+<li>Time &amp; Date format
+Because this is English default blog, if you want to use Chinese Time/Date format in your blog.
+you can edit this part</li>
+</ul>
+
+
+<p>  date_format: &ldquo;ordinal&rdquo; #默认日期显示方式</p></li>
+</ul>
+
+
+<p>Please modify <code>ordinal</code> to <code>%Y 年%-m 月%-d</code> in <code>_config.yml</code></p>
+
+<pre><code>* link
+</code></pre>
+
+<p>Change the default link</p>
+
+<pre><code>http://[your_domain_name]/blog/2014/04/28/Post-Title/ ＃这是自动生成的博客链接
+</code></pre>
+
+<p>to</p>
+
+<pre><code>http://[your_domain_name]/blog/20140428/Post-Title.html/
+http://[your_domain_name]/blog/Post-Title.html/ # 这条链接清晰明了
+</code></pre>
+
+<p>in the <code>_config.yml</code> file, you can find</p>
+
+<pre>permalink: /blog/:year/:month/:day/:title/ # 文章固定链接</pre>
+
+
+<p>you can change it into the following format</p>
+
+<pre><code>permalink: /blog/:year:month:day/:title.html/ 
+</code></pre>
+
+<p>or</p>
+
+<pre><code>permalink: /blog/:title.html/ # this is the simplest style
+
+* Change &lt;code&gt;"Categories"&lt;/code&gt; to &lt;code&gt;"分类"&lt;/code&gt; ＃修改分类前缀
+</code></pre>
+
+<p>Just add the following line into <code>_config.yml</code></p>
+
+<pre><code>category_title_prefix: "分类：" ＃ 修改分类前缀
+</code></pre>
+
+<p>you can add this line in any position in the <code>_config.yml</code> file.
+or after</p>
+
+<pre><code>category_dir: blog/categories
+
+* [Continue] Button
+
+&lt;i&gt;excerpt_link: "Read on &amp;raar;" # "Continue reading" link text at the bottom of excerpted articles&lt;/i&gt;
+</code></pre>
+
+<p>Change <code>&ldquo;Read on&rdquo;</code> to <code>&ldquo;继续阅读&rdquo;</code></p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instructions to Post on Ocotpress]]></title>
