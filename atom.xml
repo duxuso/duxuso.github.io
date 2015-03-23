@@ -4,7 +4,7 @@
   <title><![CDATA[Duxuso Octopress]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-03-23T22:09:35+11:00</updated>
+  <updated>2015-03-23T22:35:54+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Duxuso]]></name>
@@ -22,7 +22,8 @@
 
 <p>I’ll follow the instructions below </p>
 
-<p><code><img src="http://duxuso.github.io/images/pic_name.png" /></code></p>
+<pre><code>&lt;img src="http://duxuso.github.io/images/pic_name.png"&gt;
+</code></pre>
 
 <p><img src="http://duxuso.github.io/images/1.2.jpg" /></p>
 
@@ -33,7 +34,7 @@
 <span class="line-number">4</span>
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217;&gt;&lt;pre&gt;<code class="c++"><span class="line"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
 </span><span class="line"><span class="p">{</span>
-</span><span class="line">      <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;hello world&quot;</span><span class="o">&lt;&lt;</span><span class="n">end1</span><span class="p">;</span>
+</span><span class="line">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;hello world&quot;</span><span class="o">&lt;&lt;</span><span class="n">end1</span><span class="p">;</span>
 </span><span class="line"><span class="p">};</span>
 </span></code>&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</figure></notextile>&lt;/div&gt;</p>
 
