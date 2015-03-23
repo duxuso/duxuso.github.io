@@ -4,7 +4,7 @@
   <title><![CDATA[Duxuso Octopress]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-03-23T22:35:54+11:00</updated>
+  <updated>2015-03-23T22:40:19+11:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Duxuso]]></name>
@@ -23,9 +23,9 @@
 <p>I’ll follow the instructions below </p>
 
 <pre><code>&lt;img src="http://duxuso.github.io/images/pic_name.png"&gt;
-</code></pre>
 
-<p><img src="http://duxuso.github.io/images/1.2.jpg" /></p>
+&lt;img src="http://duxuso.github.io/images/pic_name.jpg"&gt;
+</code></pre>
 
 <p>Test Code in blog
 &lt;div class=&#8217;bogus-wrapper&#8217;&gt;<notextile><figure class="code">&lt;figcaption&gt;<span></span>&lt;/figcaption&gt;&lt;div class=&#8221;highlight&#8221;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#8221;gutter&#8221;&gt;&lt;pre class=&#8221;line-numbers&#8221;&gt;<span class="line-number">1</span>
