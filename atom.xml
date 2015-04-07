@@ -4,7 +4,7 @@
   <title><![CDATA[Duxuso Octopress]]></title>
   <link href="http://duxuso.github.io/atom.xml" rel="self"/>
   <link href="http://duxuso.github.io/"/>
-  <updated>2015-03-23T22:40:19+11:00</updated>
+  <updated>2015-04-07T20:40:41+10:00</updated>
   <id>http://duxuso.github.io/</id>
   <author>
     <name><![CDATA[Duxuso]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac Cought Trojan Horse on 06/04/2015]]></title>
+    <link href="http://duxuso.github.io/blog/mac-cought-trojan-horse-on-06-slash-04-slash-2015/"/>
+    <updated>2015-04-07T20:11:40+10:00</updated>
+    <id>http://duxuso.github.io/blog/mac-cought-trojan-horse-on-06-slash-04-slash-2015</id>
+    <content type="html"><![CDATA[<p>My MacBookPro caught a trojan virus which is disguised as video player on 6th April 2015, I’ve installed some anti-virus softwares, no one works.</p>
+
+<p>And this “[转载] mac wirelurker木马病毒检查！！” - http://bbs.feng.com/read-htm-tid-8560800.html is only for killing ‘wirelurker’ trojan, not for my case. </p>
+
+<p>I searched Google in Chinese “Mac网页木马”，and found the following resource, “Mac也要掃毒/木馬！《Adware removal tool》解決Chrome、Safari 被廣告綁架” http://www.applealmond.com/mac-tutorial/adware-removal-toolchromesafari</p>
+
+<p>When I downloaded the ‘Adware removal tool’, it is already outofdate and gives me a new link http://www.thesafemac.com/art/ directs to a ‘real app’ called ‘AdwareMedic’, the downloaded link is ‘http://www.adwaremedic.com/index.php’, when I installed this one, the unwanted pop-ups stop appearing.</p>
+
+<p>It solved at present     </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Add a Picture]]></title>
